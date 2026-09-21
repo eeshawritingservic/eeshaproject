@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eesha Writing Services | Research Papers, Projects & Publication Assistance</title>
+<meta name="description" content="Eesha Writing Services – research paper writing, thesis support, MATLAB and Python implementation, IEEE conference papers, publication assistance, patents and academic project support.">
+<meta name="theme-color" content="#123b72">
+<link rel="icon" href="assets/eesha-flyer.jpg">
+<style>
+:root{--blue:#123b72;--blue2:#0a5ca8;--cyan:#12a9d9;--gold:#f5a623;--red:#e84855;--green:#16a085;--ink:#172033;--muted:#667085;--bg:#f5f8fc;--card:#fff;--shadow:0 12px 35px rgba(18,59,114,.12);--radius:16px}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+a{color:inherit;text-decoration:none} img{max-width:100%;display:block} .container{width:min(1180px,92%);margin:auto}
+.top{background:#09294f;color:#fff;font-size:13px} .top .container{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:8px 0}
+.nav{position:sticky;top:0;z-index:50;background:#fff;box-shadow:0 2px 18px rgba(0,0,0,.08)} .navrow{display:flex;align-items:center;gap:20px;min-height:76px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:22px;color:var(--blue);white-space:nowrap} .logo span{color:var(--gold)} .logo small{display:block;font-size:9px;letter-spacing:1.3px;color:#7a8698;font-weight:700}
+.navlinks{margin-left:auto;display:flex;align-items:center;gap:4px} .navlinks a,.drop{padding:28px 11px;font-size:14px;font-weight:700;color:#27364a;cursor:pointer}
+.navlinks a:hover,.drop:hover{color:var(--cyan)} .menu{display:none;border:0;background:#eef5fb;border-radius:10px;padding:10px 12px;font-size:22px}
+.hero{position:relative;min-height:530px;overflow:hidden;background:linear-gradient(120deg,#09294f,#1260a5 58%,#16a9d4)}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 75% 20%,rgba(255,255,255,.18),transparent 28%),linear-gradient(90deg,rgba(4,22,46,.88),rgba(4,22,46,.45),rgba(4,22,46,.1))}
+.heroimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.48}
+.hero .container{position:relative;z-index:2;min-height:530px;display:flex;align-items:center}
+.heroText{max-width:650px;color:#fff;padding:65px 0}
+.kicker{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.28);padding:7px 13px;border-radius:30px;font-weight:800;font-size:12px;letter-spacing:.7px;text-transform:uppercase}
+h1{font-size:clamp(38px,5vw,66px);line-height:1.04;margin:18px 0 15px} .hero p{font-size:19px;max-width:620px;color:#eaf6ff}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px} .btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:9px;font-weight:800;border:2px solid transparent;cursor:pointer} .primary{background:var(--gold);color:#152235} .light{background:#fff;color:var(--blue)} .outline{border-color:#fff;color:#fff}
+.heroCards{position:absolute;right:4%;bottom:34px;display:grid;grid-template-columns:repeat(2,160px);gap:10px;z-index:3} .heroCard{background:rgba(255,255,255,.94);border-radius:13px;padding:14px;box-shadow:var(--shadow);font-weight:800;font-size:13px} .heroCard b{display:block;color:var(--blue);font-size:25px}
+.section{padding:70px 0} .section.alt{background:var(--bg)} .heading{text-align:center;margin-bottom:38px} .heading .eyebrow{color:var(--cyan);font-size:12px;font-weight:900;letter-spacing:1.2px;text-transform:uppercase} .heading h2{font-size:36px;line-height:1.15;margin:8px 0} .heading p{max-width:720px;margin:auto;color:var(--muted)}
+.quick{margin-top:-38px;position:relative;z-index:5} .quickgrid{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border-radius:16px;box-shadow:var(--shadow);overflow:hidden} .quickitem{padding:22px;border-right:1px solid #e9eef5} .quickitem:last-child{border:0} .quickitem strong{display:block;color:var(--blue);font-size:17px} .quickitem span{font-size:13px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px} .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;border:1px solid #edf1f6} .card img{height:190px;width:100%;object-fit:cover} .cardbody{padding:22px} .tag{display:inline-block;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.6px;color:var(--blue2);background:#eaf5ff;border-radius:20px;padding:5px 9px} .card h3{margin:10px 0 7px;font-size:21px} .card p{color:var(--muted);font-size:14px;margin:0 0 15px} .more{font-weight:800;color:var(--blue2);font-size:13px}
+.icons{font-size:30px} .serviceGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px} .service{padding:24px;background:#fff;border-radius:14px;border:1px solid #e7edf4;box-shadow:0 8px 25px rgba(18,59,114,.07);transition:.2s} .service:hover{transform:translateY(-4px);box-shadow:var(--shadow)} .service h3{font-size:17px;margin:10px 0 7px} .service p{font-size:13px;color:var(--muted);margin:0}
+.domains{display:grid;grid-template-columns:repeat(5,1fr);gap:12px} .domain{padding:18px 14px;border-radius:12px;background:#fff;border:1px solid #e4eaf2;text-align:center;font-weight:800;font-size:13px;box-shadow:0 5px 18px rgba(18,59,114,.05)} .domain i{display:block;font-size:26px;font-style:normal;margin-bottom:7px}
+.process{display:grid;grid-template-columns:repeat(6,1fr);gap:10px} .step{background:#fff;padding:18px 12px;text-align:center;border-radius:12px;border:1px solid #e2e9f2} .num{width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;margin:0 auto 9px;font-weight:900} .step strong{font-size:13px;display:block} .step span{font-size:11px;color:var(--muted)}
+.split{display:grid;grid-template-columns:1.05fr .95fr;gap:35px;align-items:center} .splitimg{border-radius:20px;overflow:hidden;box-shadow:var(--shadow)} .splitimg img{width:100%;height:380px;object-fit:cover} .check{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px} .check div{background:#f5f9fd;border-radius:10px;padding:12px;font-weight:700;font-size:13px}
+.stats{background:linear-gradient(120deg,#09294f,#1260a5);color:#fff} .statsgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center} .stat strong{display:block;font-size:38px} .stat span{font-size:13px;color:#d9ecff}
+.cta{background:linear-gradient(135deg,#f5a623,#ffd36f);color:#13233a} .ctarow{display:flex;align-items:center;justify-content:space-between;gap:30px} .cta h2{font-size:34px;margin:0 0 5px} .cta p{margin:0}
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:14px} details{background:#fff;border:1px solid #e2e9f2;border-radius:11px;padding:16px 18px} summary{font-weight:800;cursor:pointer}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:24px} .contactbox{background:#fff;border-radius:16px;padding:28px;box-shadow:var(--shadow);border:1px solid #e8edf3} input,select,textarea{width:100%;padding:12px 13px;border:1px solid #d8e0ea;border-radius:8px;margin:6px 0 10px;font:inherit} textarea{min-height:120px} label{font-size:12px;font-weight:800} 
+.footer{background:#081d35;color:#c7d5e5;padding:50px 0 20px} .footgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:30px} .footer h3{color:#fff;font-size:16px} .footer a{display:block;color:#c7d5e5;font-size:13px;margin:8px 0} .copy{border-top:1px solid rgba(255,255,255,.1);margin-top:35px;padding-top:18px;font-size:12px;display:flex;justify-content:space-between}
+.wa{position:fixed;right:20px;bottom:20px;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;font-size:28px;box-shadow:0 10px 25px rgba(0,0,0,.22);z-index:60}
+.ribbon{background:#eaf6ff;padding:10px 0;font-size:12px;color:#17456f;text-align:center;font-weight:800}
+.modal{position:fixed;inset:0;background:rgba(4,20,38,.7);display:none;align-items:center;justify-content:center;z-index:100;padding:20px} .modal.open{display:flex} .modalbox{background:#fff;width:min(560px,100%);border-radius:18px;padding:28px;position:relative} .close{position:absolute;right:15px;top:10px;border:0;background:none;font-size:27px;cursor:pointer}
+@media(max-width:980px){.navlinks{display:none}.menu{display:block;margin-left:auto}.heroCards{display:none}.quickgrid,.grid,.serviceGrid{grid-template-columns:repeat(2,1fr)}.domains{grid-template-columns:repeat(3,1fr)}.process{grid-template-columns:repeat(3,1fr)}.split,.contact{grid-template-columns:1fr}.statsgrid{grid-template-columns:repeat(2,1fr)}.footgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.top .container{flex-direction:column;align-items:flex-start;gap:2px}.navrow{min-height:65px}.quickgrid,.grid,.serviceGrid,.domains,.process,.statsgrid,.faq,.footgrid{grid-template-columns:1fr}.hero{min-height:600px}.hero .container{min-height:600px}.heroText{padding:45px 0}h1{font-size:41px}.section{padding:52px 0}.ctarow{flex-direction:column;align-items:flex-start}.check{grid-template-columns:1fr}.copy{flex-direction:column;gap:8px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="container"><span>📞 +91 78429 33135</span><span>Research • Projects • Publication • Implementation Support</span><span>Mon–Sat | Enquiry Open</span></div></div>
+
+<nav class="nav"><div class="container navrow">
+<a class="logo" href="#home">eesha <span>Writing Services</span><small>RESEARCH • PROJECTS • PUBLICATION</small></a>
+<button class="menu" onclick="toggleNav()">☰</button>
+<div class="navlinks" id="navlinks">
+<a href="#home">Home</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#domains">Domains</a><a href="#research">Research</a><a href="#process">Process</a><a href="#about">About</a><a href="#contact">Contact</a>
+</div></div></nav>
+
+<section class="hero" id="home">
+<img class="heroimg" src="https://static.wixstatic.com/media/a28f25_842d94395d9a47fd91652c6492882452~mv2.png/v1/fill/w_980,h_653,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/a28f25_842d94395d9a47fd91652c6492882452~mv2.png" alt="Research paper writing workspace">
+<div class="container"><div class="heroText">
+<span class="kicker">Eesha Writing Services</span>
+<h1>Research, Projects & Publication Support — All in One Place</h1>
+<p>Research paper writing, thesis support, MATLAB/Python implementation, IEEE conference assistance, journal publication support, patents and academic project services for students and researchers.</p>
+<div class="btns"><a class="btn primary" href="#contact">Send Enquiry</a><a class="btn light" href="tel:+917842933135">Call +91 78429 33135</a><a class="btn outline" href="#services">Explore Services</a></div>
+</div></div>
+<div class="heroCards"><div class="heroCard"><b>01</b>Research Writing</div><div class="heroCard"><b>02</b>Implementation</div><div class="heroCard"><b>03</b>Publication Support</div><div class="heroCard"><b>04</b>Thesis & PPT</div></div>
+</section>
+
+<div class="ribbon">Plagiarism Checking • AI Content Editing • All Domains & Departments • B.Tech to PhD Level Support</div>
+
+<section class="quick"><div class="container"><div class="quickgrid">
+<div class="quickitem">📄 <strong>Research Papers</strong><span>Literature review to final manuscript</span></div>
+<div class="quickitem">💻 <strong>MATLAB / Python</strong><span>Simulation, coding and implementation</span></div>
+<div class="quickitem">🎓 <strong>Thesis & Projects</strong><span>UG, PG and research support</span></div>
+<div class="quickitem">📚 <strong>Publication Support</strong><span>Journal and conference assistance</span></div>
+</div></div></section>
+
+<section class="section" id="services"><div class="container">
+<div class="heading"><div class="eyebrow">What we do</div><h2>Academic & Research Services</h2><p>A visual service structure inspired by modern project-service websites, rebuilt around Eesha Writing Services.</p></div>
+<div class="grid">
+<div class="card"><img src="https://static.wixstatic.com/media/a28f25_842d94395d9a47fd91652c6492882452~mv2.png/v1/fill/w_980,h_653,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/a28f25_842d94395d9a47fd91652c6492882452~mv2.png" alt="Research paper writing"><div class="cardbody"><span class="tag">Writing</span><h3>Research Paper / Article Writing</h3><p>Support for research manuscripts, structure, technical writing, figures, references and formatting.</p><a class="more" href="#contact">Enquire →</a></div></div>
+<div class="card"><img src="https://files-storage-l.nyc3.digitaloceanspaces.com/epic-essay/0x028rPAg1NhymGwxZ9GwtaVXnjFu0EIbd9iLokQ.png" alt="Thesis writing"><div class="cardbody"><span class="tag">Academic</span><h3>Thesis Writing + PPT</h3><p>Chapter-wise thesis support, presentation preparation, editing and research documentation.</p><a class="more" href="#contact">Enquire →</a></div></div>
+<div class="card"><img src="https://d2u18tz2v9wox7.cloudfront.net/code_no_code_058522e84a.jpg" alt="AI coding"><div class="cardbody"><span class="tag">Implementation</span><h3>MATLAB / Python / Coding</h3><p>Simulation, algorithm implementation, data analysis and result visualization for academic work.</p><a class="more" href="#contact">Enquire →</a></div></div>
+<div class="card"><img src="assets/matlab-simulation.svg" alt="MATLAB simulation"><div class="cardbody"><span class="tag">Simulation</span><h3>Engineering Project Support</h3><p>Electrical, Electronics, Computer Science, AI/ML, IoT, embedded and renewable-energy projects.</p><a class="more" href="#projects">View categories →</a></div></div>
+<div class="card"><img src="https://taz.de/picture/7738185/1200/475254118-1.jpeg" alt="AI research"><div class="cardbody"><span class="tag">Publication</span><h3>IEEE / Journal Publication</h3><p>Manuscript preparation, formatting, submission support and publication workflow guidance.</p><a class="more" href="#contact">Enquire →</a></div></div>
+<div class="card"><img src="https://static.wixstatic.com/media/a28f25_842d94395d9a47fd91652c6492882452~mv2.png/v1/fill/w_980,h_653,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/a28f25_842d94395d9a47fd91652c6492882452~mv2.png" alt="Academic publication"><div class="cardbody"><span class="tag">Research</span><h3>Survey & Literature Review</h3><p>Topic mapping, paper collection strategy, review structure, gap identification and synthesis.</p><a class="more" href="#contact">Enquire →</a></div></div>
+</div></div></section>
+
+<section class="section alt" id="projects"><div class="container">
+<div class="heading"><div class="eyebrow">Project categories</div><h2>UG • PG • Research • PhD</h2><p>Choose a category to discuss your project, implementation, writing or publication requirement.</p></div>
+<div class="serviceGrid">
+<div class="service"><div class="icons">🎓</div><h3>UG Major Projects</h3><p>Electrical, ECE, CSE, AI/ML, IoT, embedded, MATLAB and Python project support.</p></div>
+<div class="service"><div class="icons">📘</div><h3>PG Projects</h3><p>Advanced simulation, optimization, AI/ML, power systems, control and research projects.</p></div>
+<div class="service"><div class="icons">🔬</div><h3>Research / PhD</h3><p>Problem formulation, literature review, methodology, implementation, analysis and manuscript support.</p></div>
+<div class="service"><div class="icons">🧪</div><h3>Implementation</h3><p>MATLAB, Python, machine learning, signal processing, optimization and engineering simulations.</p></div>
+<div class="service"><div class="icons">📝</div><h3>Survey Papers</h3><p>Systematic topic organization, comparison tables, research gaps and technical presentation.</p></div>
+<div class="service"><div class="icons">🏆</div><h3>Conference Papers</h3><p>IEEE conference paper preparation, formatting and submission workflow assistance.</p></div>
+<div class="service"><div class="icons">📖</div><h3>Books / ISBN / DOI</h3><p>Book manuscript preparation and publication-process guidance.</p></div>
+<div class="service"><div class="icons">💡</div><h3>Patent Support</h3><p>Documentation and process assistance for Indian and international patent requirements.</p></div>
+</div></div></section>
+
+<section class="section" id="domains"><div class="container">
+<div class="heading"><div class="eyebrow">Domains</div><h2>Engineering & Technology Areas</h2><p>Broad coverage for academic projects and research support.</p></div>
+<div class="domains">
+<div class="domain">⚡<br>Electrical</div><div class="domain">🔌<br>Power Systems</div><div class="domain">🔋<br>Power Electronics</div><div class="domain">🎛️<br>Control Systems</div><div class="domain">☀️<br>Renewable Energy</div>
+<div class="domain">📡<br>IoT</div><div class="domain">🤖<br>Embedded Systems</div><div class="domain">🧠<br>AI / ML</div><div class="domain">👁️<br>Image Processing</div><div class="domain">📊<br>Data Science</div>
+<div class="domain">💻<br>Python</div><div class="domain">🧮<br>MATLAB</div><div class="domain">🖥️<br>Deep Learning</div><div class="domain">📶<br>Wireless / WSN</div><div class="domain">🧬<br>Biomedical</div>
+</div></div></section>
+
+<section class="section alt" id="process"><div class="container">
+<div class="heading"><div class="eyebrow">Project process</div><h2>From Requirement to Final Delivery</h2><p>A clear six-stage workflow for projects, research papers and academic documentation.</p></div>
+<div class="process">
+<div class="step"><div class="num">1</div><strong>Requirement</strong><span>Understand topic, level and target output.</span></div>
+<div class="step"><div class="num">2</div><strong>Planning</strong><span>Define methodology, scope and deliverables.</span></div>
+<div class="step"><div class="num">3</div><strong>Research</strong><span>Literature, references and technical background.</span></div>
+<div class="step"><div class="num">4</div><strong>Implementation</strong><span>Coding, simulation and analysis.</span></div>
+<div class="step"><div class="num">5</div><strong>Documentation</strong><span>Paper, thesis, PPT and reports.</span></div>
+<div class="step"><div class="num">6</div><strong>Review</strong><span>Corrections, formatting and final support.</span></div>
+</div></div></section>
+
+<section class="section" id="research"><div class="container split">
+<div class="splitimg"><img src="https://taz.de/picture/7738185/1200/475254118-1.jpeg" alt="AI research and coding"></div>
+<div><div class="eyebrow" style="color:var(--cyan);font-weight:900">Research support</div><h2>Build a complete research workflow</h2><p style="color:var(--muted)">Eesha Writing Services brings writing, implementation and publication-oriented assistance together so that students and researchers can work through a structured project lifecycle.</p>
+<div class="check"><div>✓ Literature Review</div><div>✓ Research Gap</div><div>✓ Methodology</div><div>✓ MATLAB / Python</div><div>✓ Result Analysis</div><div>✓ Paper Formatting</div><div>✓ Plagiarism Report</div><div>✓ PPT / Thesis</div></div>
+</div></div></section>
+
+<section class="section stats"><div class="container"><div class="statsgrid">
+<div class="stat"><strong>01</strong><span>Single-point enquiry</span></div>
+<div class="stat"><strong>02</strong><span>Writing + implementation</span></div>
+<div class="stat"><strong>03</strong><span>Research + publication workflow</span></div>
+<div class="stat"><strong>04</strong><span>All major engineering domains</span></div>
+</div></div></section>
+
+<section class="section" id="about"><div class="container split">
+<div><div class="eyebrow" style="color:var(--cyan);font-weight:900">About Eesha</div><h2>Research assistance designed around your topic</h2><p style="color:var(--muted)">Eesha Writing Services provides academic writing, project implementation and publication assistance across engineering and technology disciplines. The service model combines technical documentation with practical simulation and coding support.</p><p style="color:var(--muted)">Publication support means preparation and submission assistance; final editorial decisions and acceptance are controlled by the respective journal or publisher.</p><div class="btns"><a class="btn" style="background:var(--blue);color:#fff" href="#contact">Discuss Your Topic</a></div></div>
+<div class="splitimg"><img src="assets/eesha-flyer.jpg" alt="Eesha Writing Services flyer"></div>
+</div></section>
+
+<section class="section alt"><div class="container"><div class="heading"><div class="eyebrow">Why choose us</div><h2>One website. Multiple academic needs.</h2></div><div class="serviceGrid">
+<div class="service"><div class="icons">✍️</div><h3>Technical Writing</h3><p>Research-oriented writing with clear structure and technical presentation.</p></div>
+<div class="service"><div class="icons">📈</div><h3>Results & Analysis</h3><p>Tables, plots, comparisons and interpretation for simulation-based work.</p></div>
+<div class="service"><div class="icons">🔎</div><h3>Quality Checks</h3><p>Plagiarism checking and AI-content editing support as requested.</p></div>
+<div class="service"><div class="icons">🌐</div><h3>Publication Workflow</h3><p>Formatting and submission guidance for journal and conference manuscripts.</p></div>
+</div></div></section>
+
+<section class="section cta"><div class="container ctarow"><div><h2>Have a project or research topic?</h2><p>Send your topic, branch, academic level and required deliverables.</p></div><a class="btn" style="background:#09294f;color:#fff" href="#contact">Start an Enquiry →</a></div></section>
+
+<section class="section" id="contact"><div class="container">
+<div class="heading"><div class="eyebrow">Contact</div><h2>Tell us what you need</h2><p>Use the form or contact Eesha directly on WhatsApp / phone.</p></div>
+<div class="contact">
+<div class="contactbox"><h3>Eesha Writing Services</h3><p><b>Phone:</b> +91 78429 33135</p><p><b>Services:</b> Research Papers • Thesis • Projects • MATLAB • Python • IEEE • Journals • Patents</p><p><b>Quick message:</b> Click the WhatsApp button and send your topic, branch, level and deadline.</p><a class="btn" style="background:#25d366;color:#fff" href="https://wa.me/917842933135?text=Hello%20Eesha%20Writing%20Services%2C%20I%20need%20academic%20project%2Fresearch%20support." target="_blank">WhatsApp Enquiry</a></div>
+<div class="contactbox"><form onsubmit="sendWhatsApp(event)">
+<label>Name</label><input id="name" required placeholder="Your name">
+<label>Phone / WhatsApp</label><input id="phone" required placeholder="Your number">
+<label>Academic level</label><select id="level"><option>UG</option><option>PG</option><option>Research / PhD</option><option>Faculty / Researcher</option><option>Other</option></select>
+<label>Requirement</label><textarea id="req" required placeholder="Project / paper / thesis / publication / MATLAB / Python requirement"></textarea>
+<button class="btn primary" type="submit">Send Enquiry on WhatsApp</button></form></div>
+</div></div></section>
+
+<section class="section alt"><div class="container"><div class="heading"><div class="eyebrow">FAQ</div><h2>Frequently Asked Questions</h2></div><div class="faq">
+<details><summary>Do you support MATLAB and Python projects?</summary><p>Yes. Enquiries can include MATLAB, Simulink, Python, machine learning, optimization, data analysis and engineering simulations.</p></details>
+<details><summary>Do you provide thesis and PPT support?</summary><p>Yes. Thesis structure, chapter documentation, editing, figures/tables and presentation support can be discussed.</p></details>
+<details><summary>Do you help with journal and IEEE submissions?</summary><p>Yes. Manuscript preparation, formatting and submission-process assistance are available. Acceptance is decided by the respective publisher or journal.</p></details>
+<details><summary>Which branches are supported?</summary><p>Electrical, Electronics, Computer Science, AI/ML, IoT, Embedded, Renewable Energy and related technology domains.</p></details>
+</div></div></section>
+
+<footer class="footer"><div class="container"><div class="footgrid">
+<div><div class="logo" style="color:#fff">eesha <span>Writing Services</span></div><p style="font-size:13px">Research Paper Writing & Publication Assistance • Projects • Thesis • Implementation • Coding.</p></div>
+<div><h3>Services</h3><a href="#services">Research Papers</a><a href="#services">Thesis & PPT</a><a href="#services">MATLAB / Python</a><a href="#services">Publication Support</a></div>
+<div><h3>Projects</h3><a href="#projects">UG Projects</a><a href="#projects">PG Projects</a><a href="#research">Research / PhD</a><a href="#domains">Domains</a></div>
+<div><h3>Contact</h3><a href="tel:+917842933135">+91 78429 33135</a><a href="#contact">Send Enquiry</a><a href="https://wa.me/917842933135" target="_blank">WhatsApp</a></div>
+</div><div class="copy"><span>© 2026 Eesha Writing Services. All rights reserved.</span><span>Academic assistance • Technical support • Publication guidance</span></div></div></footer>
+
+<a class="wa" href="https://wa.me/917842933135?text=Hello%20Eesha%20Writing%20Services" target="_blank" aria-label="WhatsApp">◔</a>
+
+<div class="modal" id="modal"><div class="modalbox"><button class="close" onclick="closeModal()">×</button><h2>Send an Enquiry</h2><p style="color:#667085">Share your requirement and we will open WhatsApp with the details.</p><form onsubmit="sendWhatsApp(event)"><label>Name</label><input id="mname" required><label>Phone</label><input id="mphone" required><label>Requirement</label><textarea id="mreq" required></textarea><button class="btn primary" type="submit">Continue to WhatsApp</button></form></div></div>
+
+<script>
+function toggleNav(){
+ const n=document.getElementById('navlinks'); n.style.display=(n.style.display==='flex'?'none':'flex');
+}
+function sendWhatsApp(e){
+ e.preventDefault();
+ const get=id=>document.getElementById(id)?.value||'';
+ const name=get('name')||get('mname'), phone=get('phone')||get('mphone'), req=get('req')||get('mreq');
+ const level=get('level');
+ const msg=`Hello Eesha Writing Services,%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AAcademic Level: ${encodeURIComponent(level)}%0ARequirement: ${encodeURIComponent(req)}`;
+ window.open('https://wa.me/917842933135?text='+msg,'_blank');
+}
+function closeModal(){document.getElementById('modal').classList.remove('open')}
+</script>
+</body></html>
